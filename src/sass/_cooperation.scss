@@ -1,0 +1,121 @@
+.cooperation-header {
+  margin-bottom: 32px;
+
+  .header__margin-bottom {
+    margin-bottom: 22px;
+  }
+}
+
+.cooperation-title {
+  margin-bottom: 34px;
+}
+
+.cooperation__descr {
+  max-width: 842px;
+  margin-bottom: 34px;
+}
+
+.cooperation__descr:last-child {
+  margin-bottom: 32px;
+}
+
+.cooperation__descr-title {
+  margin: 0;
+  margin-bottom: 13px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  color: var(--black);
+}
+
+.cooperation__text {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--grey_shade);
+}
+
+.cooperation__subtitle {
+  display: inline-block;
+  margin-bottom: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  color: var(--secondary_main);
+}
+
+.cooperation__subtitle.second {
+  margin-top: 14px;
+  margin-bottom: 15px;
+}
+
+.benefits {
+  max-width: 624px;
+  padding-left: 37px;
+  line-height: 1.5;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 25px 25px;
+}
+
+.benefits:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.benefit1 {
+  background-image: url('../img/svg/network.svg');
+}
+
+.benefit2 {
+  background-image: url('../img/svg/briefcase.svg');
+}
+
+.benefit3 {
+  background-image: url('../img/svg/git-pull-request.svg');
+}
+
+.cooperation__item:not(:last-child) {
+  margin-bottom: 17px;
+}
+
+.cooperation__item {
+  position: relative;
+  padding-left: 26px;
+}
+
+.cooperation__item::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.8;
+  color: var(--secondary_main);
+}
+
+.cooperation__item:first-child::before {
+  content: '1.';
+}
+
+.cooperation__item:nth-child(2)::before {
+  content: '2.';
+}
+
+.cooperation__item:nth-child(3)::before {
+  content: '3.';
+}
+
+.warranty {
+  max-width: 624px;
+  padding: 22px 0 22px 109px;
+  background-image: url(../img/images/pencil.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 77px 116px;
+
+  span {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--black);
+  }
+}

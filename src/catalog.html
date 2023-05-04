@@ -1,0 +1,1582 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SitDownPls - Catalog</title>
+  <link rel="stylesheet" href="styles/style.min.css">
+  <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+  <h1 class="visually-hidden">SitDownPls - Catalog</h1>
+  <header class="header catalog-header">
+    <div class="header-top">
+      <div class="mobile-logo-wrapper">
+        <a href="./index.html" class="logo" aria-label="На главную страницу">
+          <img src="./img/svg/logo.svg" alt="SitDownPls logotipe" class="logo-img">
+        </a>
+      </div>
+      <div class="container header-top__container">
+        <label class="city-label">Ваш регион:
+          <select name="city-select" id="#city_select" class="city-select" data-trigger>
+            <option selected value="moscow">Москва</option>
+            <option value="kazan">Казань</option>
+            <option value="ufa">Уфа</option>
+            <option value="perm">Пермь</option>
+          </select>
+        </label>
+        <a href="tel:+74958854547" aria-label="Наш номер телефона. +74958854547" class="tel-number">
+          <svg viewbox="0 0 32 32">
+            <use xlink:href="sprite.svg#Vector"></use>
+          </svg>
+          <span>+7 (495) 885-45-47</span>
+        </a>
+        <nav class="header-top__nav desktop-nav">
+          <ul class="header-top__list">
+            <li class="header-top__item">
+              <a href="#" class="header-top__link">О компании</a>
+            </li>
+            <li class="header-top__item">
+              <a href="#" class="header-top__link">Гарантия и возврат</a>
+            </li>
+            <li class="header-top__item">
+              <a href="#" class="header-top__link">Корпоративным клиентам</a>
+            </li>
+            <li class="header-top__item">
+              <a href="#" class="header-top__link">Дизайн-решение</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="tablet-nav">
+        <div class="container">
+          <div class="tablet-nav__container">
+            <nav class="header-top__nav">
+              <ul class="header-top__list">
+                <li class="header-top__item">
+                  <a href="#" class="header-top__link">О компании</a>
+                </li>
+                <li class="header-top__item">
+                  <a href="#" class="header-top__link">Гарантия и возврат</a>
+                </li>
+                <li class="header-top__item">
+                  <a href="#" class="header-top__link">Корпоративным клиентам</a>
+                </li>
+                <li class="header-top__item">
+                  <a href="#" class="header-top__link">Дизайн-решение</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header__box">
+              <a href="#" class="personal-cabinet" aria-label="Вход в личный кабинет">
+                <svg viewbox="0 0 26 28">
+                  <use xlink:href="sprite.svg#user"></use>
+                </svg>
+              </a>
+              <a href="#" class="basket" aria-label="Корзина товаров">
+                <span class="cart-number">0</span>
+                <svg viewbox="0 0 30 28">
+                  <use xlink:href="sprite.svg#shopping_cart"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-middle">
+      <div class="container header-middle__container">
+        <button aria-label="Навигационное меню. Нажмите интер чтобы открыть" class="burger btn-reset">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </button>
+        <a href="./index.html" class="logo" aria-label="На главную страницу">
+          <img src="./img/svg/logo.svg" alt="SitDownPls logotipe" class="logo-img">
+        </a>
+        <nav class="header-middle__nav header-nav">
+          <ul class="header-middle__list">
+            <li class="header-middle__item">
+              <a target="blank" href="./catalog.html" class="header-middle__link">Каталог</a>
+            </li>
+            <li class="header-middle__item">
+              <a href="#" class="header-middle__link">Магазины</a>
+            </li>
+            <li class="header-middle__item">
+              <a href="#" class="header-middle__link">Шоу-рум</a>
+            </li>
+            <li class="header-middle__item">
+              <a href="#" class="header-middle__link">Доставка и оплата</a>
+            </li>
+            <li class="header-middle__item">
+              <a href="#" class="header-middle__link">Дисконт</a>
+            </li>
+            <li class="header-middle__item">
+              <a href="./contacts.html" target="blank" class="header-middle__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__box">
+          <a href="#" class="personal-cabinet" aria-label="Вход в личный кабинет">
+            <svg viewbox="0 0 26 28">
+              <use xlink:href="sprite.svg#user"></use>
+            </svg>
+          </a>
+          <a href="#" class="basket" aria-label="Корзина товаров">
+            <span class="cart-number">0</span>
+            <svg viewbox="0 0 30 28">
+              <use xlink:href="sprite.svg#shopping_cart"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="header-bottom header__margin-bottom">
+      <div class="container header-bottom__container">
+        <form class="search-form" tabindex="0">
+          <input type="search" name="search" id="type_search" aria-label="Поле поиска по сайту" required
+            placeholder="Я хочу купить..." class="search-form__input">
+          <button class="header__search-btn btn-reset" type="submit" aria-label="Поиск по сайту">
+            <span class="btn-arrow"></span>
+          </button>
+        </form>
+        <label class="header-bottom__label">
+          <select name="furnitures" id="header-bottom__select">
+            <option value="Категории">Категория</option>
+            <option value="Акксесуары">Акксесуары</option>
+            <option value="Тумбы">Тумбы</option>
+            <option value="Кресла">Кресла</option>
+            <option value="Кровати">Кровати</option>
+            <option value="Пуфы">Пуфы</option>
+            <option value="Комоды">Комоды</option>
+            <option value="Диваны">Диваны</option>
+            <option value="Стулья">Стулья</option>
+            <option value="Столы">Столы</option>
+          </select>
+        </label>
+        <div class="header__box">
+          <a href="#" class="personal-cabinet" aria-label="Вход в личный кабинет">
+            <svg viewbox="0 0 26 28">
+              <use xlink:href="sprite.svg#user"></use>
+            </svg>
+          </a>
+          <a href="#" class="basket" aria-label="Корзина товаров">
+            <span class="cart-number">0</span>
+            <svg viewbox="0 0 30 28">
+              <use xlink:href="sprite.svg#shopping_cart"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <nav class="breadcrumbs">
+        <ul class="breadcrumbs__list">
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="./index.html">Главная</a>
+            /
+          </li>
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="./catalog.html">Каталог</a>
+            /
+          </li>
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="#">Диваны</a>
+            /
+          </li>
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="#">Прямые диваны</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="catalog-section">
+      <h2 class="visually-hidden">Section title</h2>
+      <div class="container catalog-section__container">
+        <div class="filter desctop-filter">
+          <div class="filter__subtitle">Фильтровать по:</div>
+          <form class="filter__category">
+            <span class="filter__title">Категория</span>
+            <div class="filter__inner">
+              <label class="filter__label">
+                <input class="input-checkbox filter-checkbox checkbox-category" type="checkbox" name="checkbox"
+                  aria-label="Выбрать категорию. Диваны" data-filter="sofa">
+                <span class="fake-checkbox">
+                  <svg width="11" height="9" viewbox="0 0 11 9">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                </span>
+                <span class="checkbox-name">Диваны</span>
+              </label>
+              <label class="filter__label">
+                <input class="input-checkbox filter-checkbox checkbox-category" type="checkbox" name="checkbox"
+                  data-filter="armchair">
+                <span class="fake-checkbox">
+                  <svg width="11" height="9" viewbox="0 0 11 9">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                </span>
+                <span class="checkbox-name">Кресла</span>
+              </label>
+              <label class="filter__label">
+                <input class="input-checkbox filter-checkbox checkbox-category" type="checkbox" name="checkbox"
+                  data-filter="poof">
+                <span class="fake-checkbox">
+                  <svg width="11" height="9" viewbox="0 0 11 9">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                </span>
+                <span class="checkbox-name">Пуфы</span>
+              </label>
+              <label class="filter__label">
+                <input class="input-checkbox filter-checkbox checkbox-category" type="checkbox" name="checkbox"
+                  data-filter="bed">
+                <span class="fake-checkbox">
+                  <svg width="11" height="9" viewbox="0 0 11 9">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                </span>
+                <span class="checkbox-name">Кровати</span>
+              </label>
+              <label class="filter__label">
+                <input class="input-checkbox filter-checkbox checkbox-category" type="checkbox" name="checkbox"
+                  data-filter="сurbstone">
+                <span class="fake-checkbox">
+                  <svg width="11" height="9" viewbox="0 0 11 9">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                </span>
+                <span class="checkbox-name">Тумбы</span>
+              </label>
+              <label class="filter__label">
+                <input class="input-checkbox filter-checkbox checkbox-category" type="checkbox" name="checkbox"
+                  data-filter="dresser">
+                <span class="fake-checkbox">
+                  <svg width="11" height="9" viewbox="0 0 11 9">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                </span>
+                <span class="checkbox-name">Комоды</span>
+              </label>
+              <label class="filter__label">
+                <input class="input-checkbox filter-checkbox checkbox-category" type="checkbox" name="checkbox"
+                  data-filter="chair">
+                <span class="fake-checkbox">
+                  <svg width="11" height="9" viewbox="0 0 11 9">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                </span>
+                <span class="checkbox-name">Стулья</span>
+              </label>
+              <label class="filter__label">
+                <input class="input-checkbox filter-checkbox checkbox-category" type="checkbox" name="checkbox"
+                  data-filter="table">
+                <span class="fake-checkbox">
+                  <svg width="11" height="9" viewbox="0 0 11 9">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                </span>
+                <span class="checkbox-name">Столы</span>
+              </label>
+              <label class="filter__label">
+                <input class="input-checkbox filter-checkbox checkbox-category" type="checkbox" name="checkbox"
+                  data-filter="accessories">
+                <span class="fake-checkbox">
+                  <svg width="11" height="9" viewbox="0 0 11 9">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                </span>
+                <span class="checkbox-name">Акксесуары</span>
+              </label>
+            </div>
+          </form>
+          <form class="filter__slider">
+            <span class="filter__title">Цена</span>
+            <div class="filter__inner filter__slider-inner">
+              <label>
+                <span class="filter__from">от</span>
+                <input class="input-number" type="number" min="2000" max="250000" placeholder="2000" name="number"
+                  aria-label="Выбрать диапазон цен на товары от 2000">
+              </label>
+              <label>
+                <span class="filter__to">до</span>
+                <input class="input-number checkbox-cost" type="number" min="2000" max="150000" placeholder="150 000"
+                  name="number" aria-label="Выбрать диапазон цен на товары до 250000">
+              </label>
+            </div>
+            <div class="filter__range"></div>
+          </form>
+          <form class="filter__sale">
+            <span class="filter__title">Скидка</span>
+            <div class="filter__inner">
+              <label class="filter__label">
+                <input class="input-checkbox filter-checkbox checkbox-sale" type="checkbox" name="checkbox"
+                  aria-label="Скидка на товары. Более 5 000" data-filter="more5000">
+                <span class="fake-checkbox">
+                  <svg width="11" height="9" viewbox="0 0 11 9">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                </span>
+                <span class="checkbox-name">Более 5 000</span>
+              </label>
+              <label class="filter__label">
+                <input class="input-checkbox filter-checkbox checkbox-sale" type="checkbox" name="checkbox"
+                  data-filter="less5000">
+                <span class="fake-checkbox">
+                  <svg width="11" height="9" viewbox="0 0 11 9">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                </span>
+                <span class="checkbox-name">Менее 5 000</span>
+              </label>
+              <label class="filter__label">
+                <input class="input-checkbox filter-checkbox checkbox-sale" type="checkbox" name="checkbox"
+                  data-filter="none">
+                <span class="fake-checkbox">
+                  <svg width="11" height="9" viewbox="0 0 11 9">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                </span>
+                <span class="checkbox-name">Не важно</span>
+              </label>
+            </div>
+          </form>
+          <form class="filter__color">
+            <span class="filter__title">Цвет</span>
+            <div class="filter__inner">
+              <label class="filter__label">
+                <input class="input-checkbox filter-checkbox checkbox-color" type="checkbox" name="checkbox"
+                  aria-label="Выбрать цвет товара. Коричневый" data-filter="color-brown">
+                <span class="fake-checkbox">
+                  <svg width="11" height="9" viewbox="0 0 11 9">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                </span>
+                <span class="checkbox-name">Коричневый</span>
+              </label>
+              <label class="filter__label">
+                <input class="input-checkbox filter-checkbox checkbox-color" type="checkbox" name="checkbox"
+                  aria-label="Выбрать цвет товара. Черный" data-filter="color-black">
+                <span class="fake-checkbox">
+                  <svg width="11" height="9" viewbox="0 0 11 9">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                </span>
+                <span class="checkbox-name">Черный</span>
+              </label>
+              <label class="filter__label">
+                <input class="input-checkbox filter-checkbox checkbox-color" type="checkbox" name="checkbox"
+                  aria-label="Выбрать цвет товара. Бержевый" data-filter="color-berge">
+                <span class="fake-checkbox">
+                  <svg width="11" height="9" viewbox="0 0 11 9">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                </span>
+                <span class="checkbox-name">Бержевый</span>
+              </label>
+              <label class="filter__label">
+                <input class="input-checkbox filter-checkbox checkbox-color" type="checkbox" name="checkbox"
+                  aria-label="Выбрать цвет товара. Серый" data-filter="color-gray">
+                <span class="fake-checkbox">
+                  <svg width="11" height="9" viewbox="0 0 11 9">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                </span>
+                <span class="checkbox-name">Серый</span>
+              </label>
+              <label class="filter__label">
+                <input class="input-checkbox filter-checkbox checkbox-color" type="checkbox" name="checkbox"
+                  aria-label="Выбрать цвет товара. Белый" data-filter="color-white">
+                <span class="fake-checkbox">
+                  <svg width="11" height="9" viewbox="0 0 11 9">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                </span>
+                <span class="checkbox-name">Белый</span>
+              </label>
+              <label class="filter__label">
+                <input class="input-checkbox filter-checkbox checkbox-color" type="checkbox" name="checkbox"
+                  aria-label="Выбрать цвет товара. Синий" data-filter="color-blue">
+                <span class="fake-checkbox">
+                  <svg width="11" height="9" viewbox="0 0 11 9">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                </span>
+                <span class="checkbox-name">Синий</span>
+              </label>
+              <label class="filter__label">
+                <input class="input-checkbox filter-checkbox checkbox-color" type="checkbox" name="checkbox"
+                  aria-label="Выбрать цвет товара. Оранжевый" data-filter="color-orange">
+                <span class="fake-checkbox">
+                  <svg width="11" height="9" viewbox="0 0 11 9">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                </span>
+                <span class="checkbox-name">Оранжевый</span>
+              </label>
+              <label class="filter__label">
+                <input class="input-checkbox filter-checkbox checkbox-color" type="checkbox" name="checkbox"
+                  aria-label="Выбрать цвет товара. Желтый" data-filter="color-yellow">
+                <span class="fake-checkbox">
+                  <svg width="11" height="9" viewbox="0 0 11 9">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                </span>
+                <span class="checkbox-name">Желтый</span>
+              </label>
+              <label class="filter__label">
+                <input class="input-checkbox filter-checkbox checkbox-color" type="checkbox" name="checkbox"
+                  aria-label="Выбрать цвет товара. Зеленый" data-filter="color-green">
+                <span class="fake-checkbox">
+                  <svg width="11" height="9" viewbox="0 0 11 9">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                </span>
+                <span class="checkbox-name">Зеленый</span>
+              </label>
+              <label class="filter__label filter-color-hidden">
+                <input class="input-checkbox filter-checkbox checkbox-color" type="checkbox" name="checkbox"
+                  aria-label="Выбрать цвет товара. Элемент" data-filter="color-element">
+                <span class="fake-checkbox">
+                  <svg width="11" height="9" viewbox="0 0 11 9">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                </span>
+                <span class="checkbox-name">Элемент</span>
+              </label>
+              <label class="filter__label filter-color-hidden">
+                <input class="input-checkbox filter-checkbox checkbox-color" type="checkbox" name="checkbox">
+                <span class="fake-checkbox">
+                  <svg width="11" height="9" viewbox="0 0 11 9">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                </span>
+                <span class="checkbox-name">Элемент</span>
+              </label>
+              <label class="filter__label filter-color-hidden">
+                <input class="input-checkbox filter-checkbox checkbox-color" type="checkbox" name="checkbox">
+                <span class="fake-checkbox">
+                  <svg width="11" height="9" viewbox="0 0 11 9">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                </span>
+                <span class="checkbox-name">Элемент</span>
+              </label>
+              <label class="filter__label filter-color-hidden">
+                <input class="input-checkbox filter-checkbox checkbox-color" type="checkbox" name="checkbox">
+                <span class="fake-checkbox">
+                  <svg width="11" height="9" viewbox="0 0 11 9">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                </span>
+                <span class="checkbox-name">Элемент</span>
+              </label>
+              <label class="filter__label filter-color-hidden">
+                <input class="input-checkbox filter-checkbox checkbox-color" type="checkbox" name="checkbox">
+                <span class="fake-checkbox">
+                  <svg width="11" height="9" viewbox="0 0 11 9">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                </span>
+                <span class="checkbox-name">Элемент</span>
+              </label>
+              <label class="filter__label filter-color-hidden">
+                <input class="input-checkbox filter-checkbox checkbox-color" type="checkbox" name="checkbox">
+                <span class="fake-checkbox">
+                  <svg width="11" height="9" viewbox="0 0 11 9">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                </span>
+                <span class="checkbox-name">Элемент</span>
+              </label>
+              <label class="filter__label filter-color-hidden">
+                <input class="input-checkbox filter-checkbox checkbox-color" type="checkbox" name="checkbox">
+                <span class="fake-checkbox">
+                  <svg width="11" height="9" viewbox="0 0 11 9">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                </span>
+                <span class="checkbox-name">Элемент</span>
+              </label>
+            </div>
+          </form>
+          <article class="filter__card">
+            <h3 class="visually-hidden">Filter card</h3>
+            <picture>
+              <source srcset="./img/webp/filter-img.webp" type="image/webp">
+              <img src="./img/images/filter-img.jpg" alt="oxford-collection" class="filter__card-img">
+            </picture>
+            <div class="filter__card-inner">
+                <h1>Оксфорд 1950</h1>
+                <p>Новая коллекция изысканных кресел</p>
+              <a href="#" class="filter__card-link" aria-label="Оксфорд 1950.
+              Новая коллекция изысканных кресел">
+                <span class="link-inner">В каталог</span>
+                <span class="link-arrow">
+                  <span></span>
+                </span>
+              </a>
+            </div>
+          </article>
+        </div>
+        <div class="catalog-main">
+          <h2 class="section-title catalog-title">Каталог</h2>
+          <div class="catalog-options">
+            <span class="option hidden bone-color">
+              <span></span>
+              <button class="option__button btn-reset">
+                <svg viewbox="0 0 12 12">
+                  <use xlink:href="./sprite.svg#close"></use>
+                </svg>
+              </button>
+            </span>
+            <span class="option hidden md-grey">
+              Зеленый
+              <button class="option__button btn-reset" data-option="color-green">
+                <svg viewbox="0 0 12 12">
+                  <use xlink:href="./sprite.svg#close"></use>
+                </svg>
+              </button>
+            </span>
+            <span class="option hidden md-grey">
+              Желтый
+              <button class="option__button btn-reset" data-option="color-yellow">
+                <svg viewbox="0 0 12 12">
+                  <use xlink:href="./sprite.svg#close"></use>
+                </svg>
+              </button>
+            </span>
+            <span class="option hidden md-grey">
+              Оранжевый
+              <button class="option__button btn-reset" data-option="color-orange">
+                <svg viewbox="0 0 12 12">
+                  <use xlink:href="./sprite.svg#close"></use>
+                </svg>
+              </button>
+            </span>
+            <span class="option hidden md-grey">
+              Синий
+              <button class="option__button btn-reset" data-option="color-blue">
+                <svg viewbox="0 0 12 12">
+                  <use xlink:href="./sprite.svg#close"></use>
+                </svg>
+              </button>
+            </span>
+            <span class="option hidden md-grey">
+              Белый
+              <button class="option__button btn-reset" data-option="color-white">
+                <svg viewbox="0 0 12 12">
+                  <use xlink:href="./sprite.svg#close"></use>
+                </svg>
+              </button>
+            </span>
+            <span class="option hidden md-grey">
+              Серый
+              <button class="option__button btn-reset" data-option="color-gray">
+                <svg viewbox="0 0 12 12">
+                  <use xlink:href="./sprite.svg#close"></use>
+                </svg>
+              </button>
+            </span>
+            <span class="option hidden md-grey">
+              Бержевый
+              <button class="option__button btn-reset" data-option="color-berge">
+                <svg viewbox="0 0 12 12">
+                  <use xlink:href="./sprite.svg#close"></use>
+                </svg>
+              </button>
+            </span>
+            <span class="option hidden md-grey">
+              Черный
+              <button class="option__button btn-reset" data-option="color-black">
+                <svg viewbox="0 0 12 12">
+                  <use xlink:href="./sprite.svg#close"></use>
+                </svg>
+              </button>
+            </span>
+            <span class="option hidden md-grey">
+              Коричневый
+              <button class="option__button btn-reset" data-option="color-brown">
+                <svg viewbox="0 0 12 12">
+                  <use xlink:href="./sprite.svg#close"></use>
+                </svg>
+              </button>
+            </span>
+            <span class="option hidden md-grey">
+              Элемент
+              <button class="option__button btn-reset" data-option="color-element">
+                <svg viewbox="0 0 12 12">
+                  <use xlink:href="./sprite.svg#close"></use>
+                </svg>
+              </button>
+            </span>
+            <span class="option hidden pink-violet-color">
+              Не важно
+              <button class="option__button btn-reset" data-option="none">
+                <svg viewbox="0 0 12 12">
+                  <use xlink:href="./sprite.svg#close"></use>
+                </svg>
+              </button>
+            </span>
+            <span class="option hidden pink-violet-color">
+              Менее 5 000
+              <button class="option__button btn-reset" data-option="less5000">
+                <svg viewbox="0 0 12 12">
+                  <use xlink:href="./sprite.svg#close"></use>
+                </svg>
+              </button>
+            </span>
+            <span class="option hidden pink-violet-color">
+              Более 5 000
+              <button class="option__button btn-reset" data-option="more5000">
+                <svg viewbox="0 0 12 12">
+                  <use xlink:href="./sprite.svg#close"></use>
+                </svg>
+              </button>
+            </span>
+            <span class="option hidden lime-color">
+              Акксесуары
+              <button class="option__button btn-reset" data-option="accessories">
+                <svg viewbox="0 0 12 12">
+                  <use xlink:href="./sprite.svg#close"></use>
+                </svg>
+              </button>
+            </span>
+            <span class="option hidden lime-color">
+              Столы
+              <button class="option__button btn-reset" data-option="table">
+                <svg viewbox="0 0 12 12">
+                  <use xlink:href="./sprite.svg#close"></use>
+                </svg>
+              </button>
+            </span>
+            <span class="option hidden lime-color">
+              Стулья
+              <button class="option__button btn-reset" data-option="chair">
+                <svg viewbox="0 0 12 12">
+                  <use xlink:href="./sprite.svg#close"></use>
+                </svg>
+              </button>
+            </span>
+            <span class="option hidden lime-color">
+              Комоды
+              <button class="option__button btn-reset" data-option="dresser">
+                <svg viewbox="0 0 12 12">
+                  <use xlink:href="./sprite.svg#close"></use>
+                </svg>
+              </button>
+            </span>
+            <span class="option hidden lime-color">
+              Тумбы
+              <button class="option__button btn-reset" data-option="сurbstone">
+                <svg viewbox="0 0 12 12">
+                  <use xlink:href="./sprite.svg#close"></use>
+                </svg>
+              </button>
+            </span>
+            <span class="option hidden lime-color">
+              Кровати
+              <button class="option__button btn-reset" data-option="bed">
+                <svg viewbox="0 0 12 12">
+                  <use xlink:href="./sprite.svg#close"></use>
+                </svg>
+              </button>
+            </span>
+            <span class="option hidden lime-color">
+              Кресла
+              <button class="option__button btn-reset" data-option="armchair">
+                <svg viewbox="0 0 12 12">
+                  <use xlink:href="./sprite.svg#close"></use>
+                </svg>
+              </button>
+            </span>
+            <span class="option hidden lime-color">
+              Диваны
+              <button class="option__button btn-reset" data-option="sofa">
+                <svg viewbox="0 0 12 12">
+                  <use xlink:href="./sprite.svg#close"></use>
+                </svg>
+              </button>
+            </span>
+            <span class="option hidden lime-color">
+              Пуфы
+              <button class="option__button btn-reset" data-option="poof">
+                <svg viewbox="0 0 12 12">
+                  <use xlink:href="./sprite.svg#close"></use>
+                </svg>
+              </button>
+            </span>
+            <span class="option hidden lime-color">
+              Элемент
+              <button class="option__button btn-reset" data-option="element">
+                <svg viewbox="0 0 12 12">
+                  <use xlink:href="./sprite.svg#close"></use>
+                </svg>
+              </button>
+            </span>
+          </div>
+          <div class="filter tablet-filter">
+            <div class="filter__subtitle">Фильтры:</div>
+            <div class="filter__group-wrapper">
+              <form class="filter__category filter__group">
+                <button class="filter__open-btn btn-reset filter__title" aria-label="Открыть список категорий товаров">
+                  Категория
+                </button>
+                <div class="filter__inner tablet-filter-inner">
+                  <label class="filter__label">
+                    <input class="input-checkbox filter-checkbox checkbox-category" type="checkbox" name="checkbox"
+                      aria-label="Выбрать категорию. Диваны" data-filter="sofa">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Диваны</span>
+                  </label>
+                  <label class="filter__label">
+                    <input class="input-checkbox filter-checkbox checkbox-category" type="checkbox" name="checkbox"
+                      data-filter="armchair">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Кресла</span>
+                  </label>
+                  <label class="filter__label">
+                    <input class="input-checkbox filter-checkbox checkbox-category" type="checkbox" name="checkbox"
+                      data-filter="poof">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Пуфы</span>
+                  </label>
+                  <label class="filter__label">
+                    <input class="input-checkbox filter-checkbox checkbox-category" type="checkbox" name="checkbox"
+                      data-filter="bed">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Кровати</span>
+                  </label>
+                  <label class="filter__label">
+                    <input class="input-checkbox filter-checkbox checkbox-category" type="checkbox" name="checkbox"
+                      data-filter="сurbstone">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Тумбы</span>
+                  </label>
+                  <label class="filter__label">
+                    <input class="input-checkbox filter-checkbox checkbox-category" type="checkbox" name="checkbox"
+                      data-filter="dresser">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Комоды</span>
+                  </label>
+                  <label class="filter__label">
+                    <input class="input-checkbox filter-checkbox checkbox-category" type="checkbox" name="checkbox"
+                      data-filter="chair">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Стулья</span>
+                  </label>
+                  <label class="filter__label">
+                    <input class="input-checkbox filter-checkbox checkbox-category" type="checkbox" name="checkbox"
+                      data-filter="table">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Столы</span>
+                  </label>
+                  <label class="filter__label">
+                    <input class="input-checkbox filter-checkbox checkbox-category" type="checkbox" name="checkbox"
+                      data-filter="accessories">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Акксесуары</span>
+                  </label>
+                  <label class="filter__label filter-category-hidden">
+                    <input class="input-checkbox filter-checkbox checkbox-category checkbox-category--hidden"
+                      type="checkbox" name="checkbox" data-filter="element">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Элемент</span>
+                  </label>
+                  <label class="filter__label filter-category-hidden">
+                    <input class="input-checkbox filter-checkbox checkbox-category checkbox-category--hidden"
+                      type="checkbox" name="checkbox" data-filter="element">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Элемент</span>
+                  </label>
+                  <label class="filter__label filter-category-hidden">
+                    <input class="input-checkbox filter-checkbox checkbox-category checkbox-category--hidden"
+                      type="checkbox" name="checkbox" data-filter="element">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Элемент</span>
+                  </label>
+                  <label class="filter__label filter-category-hidden">
+                    <input class="input-checkbox filter-checkbox checkbox-category checkbox-category--hidden"
+                      type="checkbox" name="checkbox" data-filter="element">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Элемент</span>
+                  </label>
+                  <label class="filter__label filter-category-hidden">
+                    <input class="input-checkbox filter-checkbox checkbox-category checkbox-category--hidden"
+                      type="checkbox" name="checkbox" data-filter="element">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Элемент</span>
+                  </label>
+                  <label class="filter__label filter-category-hidden">
+                    <input class="input-checkbox filter-checkbox checkbox-category checkbox-category--hidden"
+                      type="checkbox" name="checkbox" data-filter="element">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Элемент</span>
+                  </label>
+                  <label class="filter__label filter-category-hidden">
+                    <input class="input-checkbox filter-checkbox checkbox-category checkbox-category--hidden"
+                      type="checkbox" name="checkbox" data-filter="element">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Элемент</span>
+                  </label>
+                  <label class="filter__label filter-category-hidden">
+                    <input class="input-checkbox filter-checkbox checkbox-category checkbox-category--hidden"
+                      type="checkbox" name="checkbox" data-filter="element">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Элемент</span>
+                  </label>
+                  <label class="filter__label filter-category-hidden">
+                    <input class="input-checkbox filter-checkbox checkbox-category checkbox-category--hidden"
+                      type="checkbox" name="checkbox" data-filter="element">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Элемент</span>
+                  </label>
+                  <label class="filter__label filter-category-hidden">
+                    <input class="input-checkbox filter-checkbox checkbox-category checkbox-category--hidden"
+                      type="checkbox" name="checkbox" data-filter="element">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Элемент</span>
+                  </label>
+                  <label class="filter__label filter-category-hidden">
+                    <input class="input-checkbox filter-checkbox checkbox-category checkbox-category--hidden"
+                      type="checkbox" name="checkbox" data-filter="element">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Элемент</span>
+                  </label>
+                  <label class="filter__label filter-category-hidden">
+                    <input class="input-checkbox filter-checkbox checkbox-category checkbox-category--hidden"
+                      type="checkbox" name="checkbox" data-filter="element">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Элемент</span>
+                  </label>
+                  <label class="filter__label filter-category-hidden">
+                    <input class="input-checkbox filter-checkbox checkbox-category checkbox-category--hidden"
+                      type="checkbox" name="checkbox" data-filter="element">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Элемент</span>
+                  </label>
+
+                </div>
+              </form>
+              <form class="filter__slider filter__group">
+                <button class="filter__open-btn btn-reset filter__title"
+                  aria-label="Открыть поля для назначения диапазонов цены">
+                  Цена
+                </button>
+                <div class="filter__inner filter__slider-inner tablet-filter-inner">
+                  <label class="filter__label">
+                    <span>от</span>
+                    <input class="input-number" type="number" min="2000" max="250000" placeholder="2000" name="number"
+                      aria-label="Выбрать диапазон цен на товары от 2000">
+                  </label>
+                  <label class="filter__label">
+                    <span>до</span>
+                    <input class="input-number checkbox-cost" type="number" min="2000" max="150000"
+                      placeholder="150 000" name="number" aria-label="Выбрать диапазон цен на товары до 250000">
+                  </label>
+                </div>
+              </form>
+              <form class="filter__sale filter__group">
+                <button class="filter__open-btn btn-reset filter__title" aria-label="Выбрать скидку на товары">
+                  Скидка
+                </button>
+                <div class="filter__inner tablet-filter-inner">
+                  <label class="filter__label">
+                    <input class="input-checkbox filter-checkbox checkbox-sale" type="checkbox" name="checkbox"
+                      aria-label="Скидка на товары. Более 5 000" data-filter="more5000">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Более 5 000</span>
+                  </label>
+                  <label class="filter__label">
+                    <input class="input-checkbox filter-checkbox checkbox-sale" type="checkbox" name="checkbox"
+                      aria-label="Скидка на товары. Менее 5 000" data-filter="less5000">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Менее 5 000</span>
+                  </label>
+                  <label class="filter__label">
+                    <input class="input-checkbox filter-checkbox checkbox-sale" type="checkbox" name="checkbox">
+                    <span class="fake-checkbox" data-filter="none">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Не важно</span>
+                  </label>
+                </div>
+              </form>
+              <form class="filter__color filter__group">
+                <button class="filter__open-btn btn-reset filter__title"
+                  aria-label="Открыть список для выбора цвета товаров">
+                  Цвет
+                </button>
+                <div class="filter__inner tablet-filter-inner">
+                  <label class="filter__label">
+                    <input class="input-checkbox filter-checkbox checkbox-color" type="checkbox" name="checkbox"
+                      data-filter="color-brown">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Коричневый</span>
+                  </label>
+                  <label class="filter__label">
+                    <input class="input-checkbox filter-checkbox checkbox-color" type="checkbox" name="checkbox"
+                      data-filter="color-black">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Черный</span>
+                  </label>
+                  <label class="filter__label">
+                    <input class="input-checkbox filter-checkbox checkbox-color" type="checkbox" name="checkbox"
+                      data-filter="color-berge">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Бержевый</span>
+                  </label>
+                  <label class="filter__label">
+                    <input class="input-checkbox filter-checkbox checkbox-color" type="checkbox" name="checkbox"
+                      data-filter="color-gray">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Серый</span>
+                  </label>
+                  <label class="filter__label">
+                    <input class="input-checkbox filter-checkbox checkbox-color" type="checkbox" name="checkbox"
+                      data-filter="color-white">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Белый</span>
+                  </label>
+                  <label class="filter__label">
+                    <input class="input-checkbox filter-checkbox checkbox-color" type="checkbox" name="checkbox"
+                      data-filter="color-blue">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Синий</span>
+                  </label>
+                  <label class="filter__label">
+                    <input class="input-checkbox filter-checkbox checkbox-color" type="checkbox" name="checkbox"
+                      data-filter="color-orange">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Оранжевый</span>
+                  </label>
+                  <label class="filter__label">
+                    <input class="input-checkbox filter-checkbox checkbox-color" type="checkbox" name="checkbox"
+                      data-filter="color-yellow">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Желтый</span>
+                  </label>
+                  <label class="filter__label">
+                    <input class="input-checkbox filter-checkbox checkbox-color" type="checkbox" name="checkbox"
+                      data-filter="color-green">
+                    <span class="fake-checkbox">
+                      <svg width="11" height="9" viewbox="0 0 11 9">
+                        <use xlink:href="sprite.svg#checkmark"></use>
+                      </svg>
+                    </span>
+                    <span class="checkbox-name">Зеленый</span>
+                  </label>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="swiper-container catalog-products-field">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide">
+                <article class="product-card">
+                  <div class="product-card__index">
+                    <svg viewbox="0 0 16 15">
+                      <use xlink:href="sprite.svg#rating-star"></use>
+                    </svg>
+                    <span>5,0</span>
+                  </div>
+                  <div class="product-card__img-wrapper">
+                    <picture>
+                      <source srcset="img/webp/catalog_img-1.webp" type="image/webp">
+                      <img src="img/images/catalog_img-1.png" alt="sofa" class="product-card__img">
+                    </picture>
+                  </div>
+                  <div class="product-card__descr">
+                    <h3 class="product-card__title card-title">Диван кожаный “R-94”</h3>
+                    <span class="product-card__price">94 990 руб</span>
+                    <a href="#" class="product-card__link" aria-label="Диван кожаный “R-94”. Купить">Купить</a>
+                  </div>
+                </article>
+              </li>
+              <li class="swiper-slide">
+                <article class="product-card">
+                  <div class="product-card__index">
+                    <svg viewbox="0 0 16 15">
+                      <use xlink:href="sprite.svg#rating-star"></use>
+                    </svg>
+                    <span>4,9</span>
+                  </div>
+                  <div class="product-card__img-wrapper">
+                    <picture>
+                      <source srcset="img/webp/catalog_img-2.webp" type="image/webp">
+                      <img src="img/images/catalog_img-2.png" alt="sofa" class="product-card__img">
+                    </picture>
+                  </div>
+                  <div class="product-card__descr">
+                    <h3 class="product-card__title card-title">Диван апартековый “T-75”</h3>
+                    <span class="product-card__price">69 990 руб</span>
+                    <a href="#" class="product-card__link" aria-label="Диван апартековый “T-75”. Купить">Купить</a>
+                  </div>
+                </article>
+              </li>
+              <li class="swiper-slide">
+                <article class="product-card ">
+                  <div class="product-card__index">
+                    <svg viewbox="0 0 16 15">
+                      <use xlink:href="sprite.svg#rating-star"></use>
+                    </svg>
+                    <span>4,8</span>
+                  </div>
+                  <div class="product-card__img-wrapper">
+                    <picture>
+                      <source srcset="img/webp/catalog_card_img-3.webp" type="image/webp">
+                      <img src="img/images/catalog_card_img-3.png" alt="sofa" class="product-card__img">
+                    </picture>
+                  </div>
+                  <div class="product-card__descr">
+                    <h3 class="product-card__title card-title">Диван тканевый “D-31”</h3>
+                    <span class="product-card__price">28 490 руб</span>
+                    <a target="blank" href="./product.html" class="product-card__link"
+                      aria-label="Диван тканевый “D-31”. Купить">Купить</a>
+                  </div>
+                </article>
+              </li>
+              <li class="swiper-slide">
+                <article class="product-card ">
+                  <div class="product-card__index">
+                    <svg viewbox="0 0 16 15">
+                      <use xlink:href="sprite.svg#rating-star"></use>
+                    </svg>
+                    <span>4,8</span>
+                  </div>
+                  <div class="product-card__img-wrapper">
+                    <picture>
+                      <source srcset="img/webp/catalog_img-4.webp" type="image/webp">
+                      <img src="img/images/catalog_img-4.png" alt="sofa" class="product-card__img">
+                    </picture>
+                  </div>
+                  <div class="product-card__descr">
+                    <h3 class="product-card__title card-title">Диван велюровый “Y-68”</h3>
+                    <span class="product-card__price">22 990 руб</span>
+                    <a href="#" class="product-card__link" aria-label="Диван велюровый “Y-68”. Купить">Купить</a>
+                  </div>
+                </article>
+              </li>
+              <li class="swiper-slide">
+                <article class="product-card ">
+                  <div class="product-card__index">
+                    <svg viewbox="0 0 16 15">
+                      <use xlink:href="sprite.svg#rating-star"></use>
+                    </svg>
+                    <span>4,8</span>
+                  </div>
+                  <div class="product-card__img-wrapper">
+                    <picture>
+                      <source srcset="img/webp/catalog_img-5.webp" type="image/webp">
+                      <img src="img/images/catalog_img-5.png" alt="sofa" class="product-card__img">
+                    </picture>
+                  </div>
+                  <div class="product-card__descr">
+                    <h3 class="product-card__title card-title">Диван из шинила “W-95”</h3>
+                    <span class="product-card__price">22 990 руб</span>
+                    <a href="#" class="product-card__link" aria-label="Диван из шинила “W-95”. Купить">Купить</a>
+                  </div>
+                </article>
+              </li>
+              <li class="swiper-slide">
+                <article class="product-card ">
+                  <div class="product-card__index">
+                    <svg viewbox="0 0 16 15">
+                      <use xlink:href="sprite.svg#rating-star"></use>
+                    </svg>
+                    <span>4,8</span>
+                  </div>
+                  <div class="product-card__img-wrapper">
+                    <picture>
+                      <source srcset="img/webp/catalog_img-6.webp" type="image/webp">
+                      <img src="img/images/catalog_img-6.png" alt="sofa" class="product-card__img">
+                    </picture>
+                  </div>
+                  <div class="product-card__descr">
+                    <h3 class="product-card__title card-title">Диван флоковый “G-41”</h3>
+                    <span class="product-card__price">17 990 руб</span>
+                    <a href="#" class="product-card__link" aria-label="Диван флоковый “G-41”. Купить">Купить</a>
+                  </div>
+                </article>
+              </li>
+              <li class="swiper-slide">
+                <article class="product-card ">
+                  <div class="product-card__index">
+                    <svg viewbox="0 0 16 15">
+                      <use xlink:href="sprite.svg#rating-star"></use>
+                    </svg>
+                    <span>4,8</span>
+                  </div>
+                  <div class="product-card__img-wrapper">
+                    <picture>
+                      <source srcset="img/webp/catalog_img-7.webp" type="image/webp">
+                      <img src="img/images/catalog_img-7.png" alt="sofa" class="product-card__img">
+                    </picture>
+                  </div>
+                  <div class="product-card__descr">
+                    <h3 class="product-card__title card-title">Диван шиниловый “V-43”</h3>
+                    <span class="product-card__price">19 990 руб</span>
+                    <a href="#" class="product-card__link" aria-label="Диван шиниловый “V-43”. Купить">Купить</a>
+                  </div>
+                </article>
+              </li>
+              <li class="swiper-slide">
+                <article class="product-card ">
+                  <div class="product-card__index">
+                    <svg viewbox="0 0 16 15">
+                      <use xlink:href="sprite.svg#rating-star"></use>
+                    </svg>
+                    <span>4,7</span>
+                  </div>
+                  <div class="product-card__img-wrapper">
+                    <picture>
+                      <source srcset="img/webp/catalog_img-8.webp" type="image/webp">
+                      <img src="img/images/catalog_img-8.png" alt="sofa" class="product-card__img">
+                    </picture>
+                  </div>
+                  <div class="product-card__descr">
+                    <h3 class="product-card__title card-title">Диван велюровый “S-99”</h3>
+                    <span class="product-card__price">19 990 руб</span>
+                    <a href="#" class="product-card__link" aria-label="Диван велюровый “S-99”. Купить">Купить</a>
+                  </div>
+                </article>
+              </li>
+              <li class="swiper-slide">
+                <article class="product-card ">
+                  <div class="product-card__index">
+                    <svg viewbox="0 0 16 15">
+                      <use xlink:href="sprite.svg#rating-star"></use>
+                    </svg>
+                    <span>4,7</span>
+                  </div>
+                  <div class="product-card__img-wrapper">
+                    <picture>
+                      <source srcset="img/webp/catalog_img-9.webp" type="image/webp">
+                      <img src="img/images/catalog_img-9.png" alt="sofa" class="product-card__img">
+                    </picture>
+                  </div>
+                  <div class="product-card__descr">
+                    <h3 class="product-card__title card-title">Диван из кожзама “F-85”</h3>
+                    <span class="product-card__price">26 990 руб</span>
+                    <a href="#" class="product-card__link" aria-label="Диван из кожзама “F-85”. Купить">Купить</a>
+                  </div>
+                </article>
+              </li>
+              <li class="swiper-slide">
+                <article class="product-card ">
+                  <div class="product-card__index">
+                    <svg viewbox="0 0 16 15">
+                      <use xlink:href="sprite.svg#rating-star"></use>
+                    </svg>
+                    <span>4,6</span>
+                  </div>
+                  <div class="product-card__img-wrapper">
+                    <picture>
+                      <source srcset="img/webp/catalog_img-10.webp" type="image/webp">
+                      <img src="img/images/catalog_img-10.png" alt="sofa" class="product-card__img">
+                    </picture>
+                  </div>
+                  <div class="product-card__descr">
+                    <h3 class="product-card__title card-title">Диван флоковый “H-64”</h3>
+                    <span class="product-card__price">25 990 руб</span>
+                    <a href="#" class="product-card__link" aria-label="Диван флоковый “H-64”. Купить">Купить</a>
+                  </div>
+                </article>
+              </li>
+              <li class="swiper-slide">
+                <article class="product-card ">
+                  <div class="product-card__index">
+                    <svg viewbox="0 0 16 15">
+                      <use xlink:href="sprite.svg#rating-star"></use>
+                    </svg>
+                    <span>4,6</span>
+                  </div>
+                  <div class="product-card__img-wrapper">
+                    <picture>
+                      <source srcset="img/webp/catalog_img-11.webp" type="image/webp">
+                      <img src="img/images/catalog_img-11.png" alt="sofa" class="product-card__img">
+                    </picture>
+                  </div>
+                  <div class="product-card__descr">
+                    <h3 class="product-card__title card-title">Диван флоковый “H-58”</h3>
+                    <span class="product-card__price">23 990 руб</span>
+                    <a href="#" class="product-card__link" aria-label="Диван флоковый “H-58”. Купить">Купить</a>
+                  </div>
+                </article>
+              </li>
+              <li class="swiper-slide">
+                <article class="product-card">
+                  <div class="product-card__index">
+                    <svg viewbox="0 0 16 15">
+                      <use xlink:href="sprite.svg#rating-star"></use>
+                    </svg>
+                    <span>4,6</span>
+                  </div>
+                  <div class="product-card__img-wrapper">
+                    <picture>
+                      <source srcset="img/webp/catalog_img-12.webp" type="image/webp">
+                      <img src="img/images/catalog_img-12.png" alt="sofa" class="product-card__img">
+                    </picture>
+                  </div>
+                  <div class="product-card__descr">
+                    <h3 class="product-card__title card-title">Диван из кожзама “R-43”</h3>
+                    <span class="product-card__price">33 990 руб</span>
+                    <a href="#" class="product-card__link" aria-label="Диван из кожзама “R-43”. Купить">Купить</a>
+                  </div>
+                </article>
+              </li>
+              <li class="swiper-slide">
+                <article class="product-card ">
+                  <div class="product-card__index">
+                    <svg viewbox="0 0 16 15">
+                      <use xlink:href="sprite.svg#rating-star"></use>
+                    </svg>
+                    <span>4,6</span>
+                  </div>
+                  <div class="product-card__img-wrapper">
+                    <picture>
+                      <source srcset="img/webp/catalog_img-13.webp" type="image/webp">
+                      <img src="img/images/catalog_img-13.png" alt="sofa" class="product-card__img">
+                    </picture>
+                  </div>
+                  <div class="product-card__descr">
+                    <h3 class="product-card__title card-title">Диван из шинила “С-42”</h3>
+                    <span class="product-card__price">18 990 руб</span>
+                    <a href="#" class="product-card__link" aria-label="Диван из шинила “С-42”. Купить">Купить</a>
+                  </div>
+                </article>
+              </li>
+              <li class="swiper-slide">
+                <article class="product-card ">
+                  <div class="product-card__index">
+                    <svg viewbox="0 0 16 15">
+                      <use xlink:href="sprite.svg#rating-star"></use>
+                    </svg>
+                    <span>4,6</span>
+                  </div>
+                  <div class="product-card__img-wrapper">
+                    <picture>
+                      <source srcset="img/webp/catalog_img-14.webp" type="image/webp">
+                      <img src="img/images/catalog_img-14.png" alt="sofa" class="product-card__img">
+                    </picture>
+                  </div>
+                  <div class="product-card__descr">
+                    <h3 class="product-card__title card-title">Диван велюровый “U-58”</h3>
+                    <span class="product-card__price">21 990 руб</span>
+                    <a href="#" class="product-card__link" aria-label="Диван велюровый “U-58”. Купить">Купить</a>
+                  </div>
+                </article>
+              </li>
+              <li class="swiper-slide">
+                <article class="product-card ">
+                  <div class="product-card__index">
+                    <svg viewbox="0 0 16 15">
+                      <use xlink:href="sprite.svg#rating-star"></use>
+                    </svg>
+                    <span>4,5</span>
+                  </div>
+                  <div class="product-card__img-wrapper">
+                    <picture>
+                      <source srcset="img/webp/catalog_img-15.webp" type="image/webp">
+                      <img src="img/images/catalog_img-15.png" alt="sofa" class="product-card__img">
+                    </picture>
+                  </div>
+                  <div class="product-card__descr">
+                    <h3 class="product-card__title card-title">Диван флоковый “F-41”</h3>
+                    <span class="product-card__price">17 990 руб</span>
+                    <a href="#" class="product-card__link" aria-label="Диван флоковый “F-41”. Купить">Купить</a>
+                  </div>
+                </article>
+              </li>
+              <li class="swiper-slide">
+                <article class="product-card ">
+                  <div class="product-card__index">
+                    <svg viewbox="0 0 16 15">
+                      <use xlink:href="sprite.svg#rating-star"></use>
+                    </svg>
+                    <span>4,5</span>
+                  </div>
+                  <div class="product-card__img-wrapper">
+                    <picture>
+                      <source srcset="img/webp/catalog_img-16.webp" type="image/webp">
+                      <img src="img/images/catalog_img-16.png" alt="sofa" class="product-card__img">
+                    </picture>
+                  </div>
+                  <div class="product-card__descr">
+                    <h3 class="product-card__title card-title">Диван велюровый “R-85”</h3>
+                    <span class="product-card__price">34 990 руб</span>
+                    <a href="#" class="product-card__link" aria-label="Диван велюровый “R-85”. Купить">Купить</a>
+                  </div>
+                </article>
+              </li>
+              <li class="swiper-slide">
+                <article class="product-card ">
+                  <div class="product-card__index">
+                    <svg viewbox="0 0 16 15">
+                      <use xlink:href="sprite.svg#rating-star"></use>
+                    </svg>
+                    <span>4,5</span>
+                  </div>
+                  <div class="product-card__img-wrapper">
+                    <picture>
+                      <source srcset="img/webp/catalog_img-17.webp" type="image/webp">
+                      <img src="img/images/catalog_img-17.png" alt="sofa" class="product-card__img">
+                    </picture>
+                  </div>
+                  <div class="product-card__descr">
+                    <h3 class="product-card__title card-title">Диван велюровый “S-44”</h3>
+                    <span class="product-card__price">19 990 руб</span>
+                    <a href="#" class="product-card__link" aria-label="Диван велюровый “S-44”. Купить">Купить</a>
+                  </div>
+                </article>
+              </li>
+              <li class="swiper-slide">
+                <article class="product-card ">
+                  <div class="product-card__index">
+                    <svg viewbox="0 0 16 15">
+                      <use xlink:href="sprite.svg#rating-star"></use>
+                    </svg>
+                    <span>4,5</span>
+                  </div>
+                  <div class="product-card__img-wrapper">
+                    <picture>
+                      <source srcset="img/webp/catalog_img-18.webp" type="image/webp">
+                      <img src="img/images/catalog_img-18.png" alt="sofa" class="product-card__img">
+                    </picture>
+                  </div>
+                  <div class="product-card__descr">
+                    <h3 class="product-card__title card-title">Диван из шинила “С-80”</h3>
+                    <span class="product-card__price">20 990 руб</span>
+                    <a href="#" class="product-card__link" aria-label="Диван из шинила “С-80”. Купить">Купить</a>
+                  </div>
+                </article>
+              </li>
+            </ul>
+          </div>
+          <div class="catalog-pagination swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer catalog-footer">
+    <div class="footer-top">
+      <div class="container footer-top__container">
+        <div class="footer-top__inner">
+          <a href="./index.html" class="logo footer__logo" aria-label="На главную страницу">
+            <img class="logo-img" src="./img/svg/logo.svg" alt="SitDownPls logotipe">
+          </a>
+          <ul class="footer__social-list">
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-link" aria-label="Мы в соц сетях. Фейсбук">
+                <svg viewbox="0 0 30 30">
+                  <use xlink:href="sprite.svg#fb"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-link" aria-label="Мы в соц сетях. В контакте">
+                <svg viewbox="0 0 30 30">
+                  <use xlink:href="sprite.svg#vk"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-link" aria-label="Мы в соц сетях. Инстаграм">
+                <svg viewbox="0 0 30 30">
+                  <use xlink:href="sprite.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <nav class="footer__nav">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <h6 class="footer__item-title">О нас</h6>
+              <a href="#" class="footer__link">О компании</a>
+              <br><a href="#" class="footer__link">Блог</a>
+            </li>
+            <li class="footer__item">
+              <h6 class="footer__item-title">Услуги</h6>
+              <a href="#" class="footer__link">Доставка</a>
+              <a href="#" class="footer__link">Рассрочка и кредит</a>
+              <br><a href="#" class="footer__link">Сборка и установка</a>
+            </li>
+            <li class="footer__item">
+              <h6 class="footer__item-title">Связь с нами</h6>
+              <a href="#" class="footer__link">Обратная связь</a>
+              <a href="#" class="footer__link">Контакты</a>
+            </li>
+            <li class="footer__item">
+              <h6 class="footer__item-title">Сотрудничество</h6>
+              <a href="./cooperation.html" target="_blank" class="footer__link">Поставщикам</a>
+              <a href="#" class="footer__link">Оптовикам</a>
+              <a href="#" class="footer__link">Карьера</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom__container">
+        <span>SDP® 2011-2021</span>
+      </div>
+    </div>
+  </footer>
+  <script defer src="js/app.js"></script>
+</body>
+
+</html>

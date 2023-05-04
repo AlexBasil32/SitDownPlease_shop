@@ -1,0 +1,43 @@
+@media screen and (max-width: 1024px) {
+  .contacts {
+    margin-bottom: 68px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contacts-header {
+    .header-middle {
+      margin-bottom: 18px;
+    }
+  }
+
+  .contacts {
+    .contacts__input {
+      width: 65%;
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .contacts-header {
+    .city-label {
+      margin-bottom: 23px;
+    }
+  }
+
+  .contacts {
+    .contacts__input {
+      width: 100%;
+    }
+  }
+
+  .contacts-header {
+    .header-middle {
+      margin-bottom: 15px;
+    }
+
+    .search-form {
+      margin-bottom: 18px;
+    }
+  }
+}

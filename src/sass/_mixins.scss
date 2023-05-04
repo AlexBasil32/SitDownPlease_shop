@@ -1,0 +1,197 @@
+@mixin сircleBtn {
+  width: 32px;
+  height: 32px;
+  border: 2px solid var(--primary_main);
+  border-radius: 100px;
+
+  span {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    margin-top: -3px;
+    margin-left: -5px;
+    border-top: 2px solid var(--primary_main);
+    border-right: 2px solid var(--primary_main);
+    vertical-align: middle;
+    transform: rotate(45deg);
+  }
+
+  &:hover {
+    background-color: var(--primary_main);
+    transition: background-color 1000ms linear;
+
+    span {
+      border-top: 2px solid var(--white);
+      border-right: 2px solid var(--white);
+      transition: background-color 1000ms linear;
+    }
+  }
+
+  &:focus {
+    background-color: var(--primary_light);
+    transition: background-color 1000ms linear;
+
+    span {
+      border-top: 2px solid var(--white);
+      border-right: 2px solid var(--white);
+      transition: .3s all ease;
+    }
+  }
+
+  &:active {
+    background-color: var(--primary_shade);
+    transition: background-color 1000ms linear;
+
+    span {
+      border-top: 2px solid var(--white);
+      border-right: 2px solid var(--white);
+    }
+  }
+}
+
+@mixin coloredBtn {
+  padding: 22px 48px;
+  border: 2px solid var(--primary_main);
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--white);
+  background-color: var(--primary_main);
+  margin: 0 auto;
+
+  &:hover {
+    background-color: var(--primary_light);
+    transition: background-color 1000ms linear;
+  }
+
+  &:focus {
+    border: 2px solid var(--primary_shade);
+    background-color: var(--primary_light);
+    transition: background-color 1000ms linear;
+  }
+
+  &:active {
+    border: 2px solid var(--primary_shade);
+    background-color: var(--primary_shade);
+    transition: background-color 1000ms linear;
+  }
+
+  &:disabled {
+    border: 2px solid var(--md_grey);
+    color: var(--grey);
+    background-color: var(--md_grey);
+  }
+}
+
+@mixin transparentBtn {
+  display: inline-block;
+  padding: 17px 32px;
+  border: 2px solid var(--primary_main);
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--primary_main);
+
+  &:hover {
+    color: var(--white);
+    background-color: var(--primary_main);
+    transition:background-color 1000ms linear;
+  }
+
+  &:focus {
+    color: var(--white);
+    background-color: var(--primary_light);
+    transition: background-color 1000ms linear;
+  }
+
+  &:active {
+    color: var(--white);
+    background-color: var(--primary_shade);
+    transition: background-color 1000ms linear;
+  }
+}
+
+@mixin greyBgCard {
+  border-radius: 10px;
+  background-color: var(--grey_light);
+}
+
+
+@mixin swiperBtns {
+  position: absolute;
+  top: 0;
+  right: 50px;
+}
+
+@mixin navLink {
+  padding: 0 8px;
+  font-size: 14px;
+  line-height: 1;
+  color: var(--grey);
+  transition: background-color 1000ms linear;
+
+  &:hover {
+    color: var(--primary_main);
+    transition: background-color 1000ms linear;
+  }
+
+  &:focus {
+    color: var(--primary_shade);
+    background-color: var(--pink_violet);
+    transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+  }
+
+  &:active {
+    color: var(--primary_shade);
+    background-color: transparent;
+  }
+}
+
+@mixin formInput {
+  @include greyBgCard;
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 15px;
+  border: 1px solid transparent;
+  font-size: 16px;
+  line-height: 1;
+  color: var(--black);
+  outline: none;
+  transition: .3s border-color ease;
+  transition: .3s background-color ease;
+
+
+  &::placeholder {
+    font-size: 16px;
+    line-height: 1;
+    color: var(--grey);
+  }
+
+  &:hover {
+    background-color: var(--md_grey);
+    transition: .3s background-color ease;
+  }
+
+  &:focus {
+    border-color: var(--primary_main);
+    background-color: var(--pink_light);
+    transition: .3s background-color ease;
+    transition: .3s border-color ease;
+  }
+
+  &:focus::placeholder {
+    color: transparent;
+    transition: .3s color ease;
+  }
+
+  &:active {
+    border-color: var(--green_input);
+    background-color: var(--grey_light);
+    transition: .3s border-color ease;
+    transition: .3s background-color ease;
+  }
+}

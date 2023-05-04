@@ -1,0 +1,46 @@
+.useful__container {
+  position: relative;
+}
+
+.useful {
+  padding-top: 37px;
+  padding-bottom: 34px;
+}
+
+.swiper-container.useful__swiper {
+  width: 100%;
+}
+
+.swiper-slide.useful__article {
+  @include greyBgCard;
+  position: relative;
+  width: calc((100% - 32px) /2);
+  min-height: 676px;
+  padding-bottom: 100px;
+}
+
+.useful__img {
+  display: block;
+  max-height: 426px;
+  margin-bottom: 33px;
+  object-fit: cover;
+}
+
+.useful__inner {
+  padding: 0 30px;
+}
+
+.useful__descr {
+  max-width: 567px;
+  font-size: 24px;
+  line-height: 33px;
+  color: var(--black);
+}
+
+.useful__link {
+  @include transparentBtn;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  display: inline-block;
+}

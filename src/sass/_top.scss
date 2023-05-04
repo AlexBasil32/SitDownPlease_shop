@@ -1,0 +1,139 @@
+.top-category {
+  padding-top: 69px;
+  padding-bottom: 34px;
+}
+
+.top-category__field {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 32px;
+}
+
+.top-category__card {
+  @include greyBgCard;
+  position: relative;
+  padding: 30px 15px 76px 30px;
+  grid-column: 2 span;
+}
+
+.top-category__card:nth-child(1),
+.top-category__card:nth-child(2) {
+  grid-column: 3 span;
+}
+
+.feature {
+  display: inline-block;
+  margin-bottom: 14px;
+  font-size: 14px;
+  line-height: 1;
+  color: var(--grey);
+}
+
+.feature:not(:last-of-type) {
+  margin-right: 30px;
+}
+
+.top-category__name {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  color: var(--black);
+
+  a {
+    display: none;
+    line-height: 18px;
+    vertical-align: middle;
+  }
+}
+
+.top-category__img {
+  display: block;
+  max-width: 90%;
+  margin-bottom: 3px;
+  margin-left: -30px;
+  object-fit: cover;
+}
+
+.top-category__link {
+  position: absolute;
+  bottom: 24px;
+  left: 30px;
+  display: inline-block;
+  padding-bottom: 2px;
+
+  .link-inner {
+    border-bottom: 2px solid transparent;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--primary_main);
+    vertical-align: 2px;
+    transition: border-bottom .2s ease;
+  }
+}
+
+.link-arrow {
+  @include сircleBtn;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+
+  span {
+    width: 8px;
+    height: 8px;
+    margin-top: -4px;
+    margin-left: 3.5px;
+  }
+}
+
+.top-category__link:hover {
+  .link-inner {
+    border-bottom: 2px solid var(--primary_main);
+    transition: border-bottom .2s ease;
+  }
+
+  .link-arrow {
+    background-color: var(--primary_main);
+
+    span {
+      border-top: 2px solid var(--white);
+      border-right: 2px solid var(--white);
+    }
+  }
+}
+
+.top-category__link:focus {
+  .link-inner {
+    border-bottom: 2px solid var(--primary_main);
+    transition: border-bottom .2s ease;
+  }
+
+  .link-arrow {
+    background-color: var(--primary_light);
+
+    span {
+      border-top: 2px solid var(--white);
+      border-right: 2px solid var(--white);
+    }
+  }
+}
+
+.top-category__link:active {
+  .link-inner {
+    border-bottom: 2px solid var(--primary_shade);
+    color: var(--primary_shade);
+    transition: border-bottom .2s ease;
+  }
+
+  .link-arrow {
+    border: 2px solid var(--primary_shade);
+    background-color: var(--primary_shade);
+
+    span {
+      border-top: 2px solid var(--white);
+      border-right: 2px solid var(--white);
+    }
+  }
+}

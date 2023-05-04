@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SitDownPls - Contacts</title>
+  <link rel="stylesheet" href="styles/style.min.css">
+  <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+  <header class="header contacts-header">
+    <div class="header-top">
+      <div class="mobile-logo-wrapper">
+        <a href="./index.html" class="logo" aria-label="На главную страницу">
+          <img src="./img/svg/logo.svg" alt="SitDownPls logotipe" class="logo-img">
+        </a>
+      </div>
+      <div class="container header-top__container">
+        <label class="city-label">Ваш регион:
+          <select name="city-select" id="#city_select" class="city-select" data-trigger>
+            <option selected value="moscow">Москва</option>
+            <option value="kazan">Казань</option>
+            <option value="ufa">Уфа</option>
+            <option value="perm">Пермь</option>
+          </select>
+        </label>
+        <a href="tel:+74958854547" aria-label="Наш номер телефона. +74958854547" class="tel-number">
+          <svg viewbox="0 0 32 32">
+            <use xlink:href="sprite.svg#Vector"></use>
+          </svg>
+          <span>+7 (495) 885-45-47</span>
+        </a>
+        <nav class="header-top__nav desktop-nav">
+          <ul class="header-top__list">
+            <li class="header-top__item">
+              <a href="#" class="header-top__link">О компании</a>
+            </li>
+            <li class="header-top__item">
+              <a href="#" class="header-top__link">Гарантия и возврат</a>
+            </li>
+            <li class="header-top__item">
+              <a href="#" class="header-top__link">Корпоративным клиентам</a>
+            </li>
+            <li class="header-top__item">
+              <a href="#" class="header-top__link">Дизайн-решение</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="tablet-nav">
+        <div class="container">
+          <div class="tablet-nav__container">
+            <nav class="header-top__nav">
+              <ul class="header-top__list">
+                <li class="header-top__item">
+                  <a href="#" class="header-top__link">О компании</a>
+                </li>
+                <li class="header-top__item">
+                  <a href="#" class="header-top__link">Гарантия и возврат</a>
+                </li>
+                <li class="header-top__item">
+                  <a href="#" class="header-top__link">Корпоративным клиентам</a>
+                </li>
+                <li class="header-top__item">
+                  <a href="#" class="header-top__link">Дизайн-решение</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header__box">
+              <a href="#" class="personal-cabinet" aria-label="Вход в личный кабинет">
+                <svg viewbox="0 0 26 28">
+                  <use xlink:href="sprite.svg#user"></use>
+                </svg>
+              </a>
+              <a href="#" class="basket" aria-label="Корзина товаров">
+                <span class="cart-number">0</span>
+                <svg viewbox="0 0 30 28">
+                  <use xlink:href="sprite.svg#shopping_cart"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-middle">
+      <div class="container header-middle__container">
+        <button aria-label="Навигационное меню. Нажмите интер чтобы открыть" class="burger btn-reset">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </button>
+        <a href="./index.html" class="logo" aria-label="На главную страницу">
+          <img src="./img/svg/logo.svg" alt="SitDownPls logotipe" class="logo-img">
+        </a>
+        <nav class="header-middle__nav header-nav">
+          <ul class="header-middle__list">
+            <li class="header-middle__item">
+              <a target="blank" href="./catalog.html" class="header-middle__link">Каталог</a>
+            </li>
+            <li class="header-middle__item">
+              <a href="#" class="header-middle__link">Магазины</a>
+            </li>
+            <li class="header-middle__item">
+              <a href="#" class="header-middle__link">Шоу-рум</a>
+            </li>
+            <li class="header-middle__item">
+              <a href="#" class="header-middle__link">Доставка и оплата</a>
+            </li>
+            <li class="header-middle__item">
+              <a href="#" class="header-middle__link">Дисконт</a>
+            </li>
+            <li class="header-middle__item">
+              <a href="./contacts.html" target="blank" class="header-middle__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__box">
+          <a href="#" class="personal-cabinet" aria-label="Вход в личный кабинет">
+            <svg viewbox="0 0 26 28">
+              <use xlink:href="sprite.svg#user"></use>
+            </svg>
+          </a>
+          <a href="#" class="basket" aria-label="Корзина товаров">
+            <span class="cart-number">0</span>
+            <svg viewbox="0 0 30 28">
+              <use xlink:href="sprite.svg#shopping_cart"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="header-bottom header__margin-bottom">
+      <div class="container header-bottom__container">
+        <form class="search-form" tabindex="0">
+          <input type="search" name="search" id="type_search" aria-label="Поле поиска по сайту" required
+            placeholder="Я хочу купить..." class="search-form__input">
+          <button class="header__search-btn btn-reset" type="submit" aria-label="Поиск по сайту">
+            <span class="btn-arrow"></span>
+          </button>
+        </form>
+        <label class="header-bottom__label">
+          <select name="furnitures" id="header-bottom__select">
+            <option value="Категории">Категория</option>
+            <option value="Акксесуары">Акксесуары</option>
+            <option value="Тумбы">Тумбы</option>
+            <option value="Кресла">Кресла</option>
+            <option value="Кровати">Кровати</option>
+            <option value="Пуфы">Пуфы</option>
+            <option value="Комоды">Комоды</option>
+            <option value="Диваны">Диваны</option>
+            <option value="Стулья">Стулья</option>
+            <option value="Столы">Столы</option>
+          </select>
+        </label>
+        <div class="header__box">
+          <a href="#" class="personal-cabinet" aria-label="Вход в личный кабинет">
+            <svg viewbox="0 0 26 28">
+              <use xlink:href="sprite.svg#user"></use>
+            </svg>
+          </a>
+          <a href="#" class="basket" aria-label="Корзина товаров">
+            <span class="cart-number">0</span>
+            <svg viewbox="0 0 30 28">
+              <use xlink:href="sprite.svg#shopping_cart"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <nav class="breadcrumbs">
+        <ul class="breadcrumbs__list">
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="./index.html">Главная</a>
+            /
+          </li>
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="./contacts.html">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <h1 class="visually-hidden">Контакты</h1>
+    <section class="contacts">
+      <div class="container">
+        <h2 class="section-title contacts-title">Контакты</h2>
+        <form class="contacts__form">
+          <input class="contacts__input" type="search" name="search" required placeholder="Поиск магазина"
+            aria-label="Поле поиска магазина на карте. Введите адрес">
+          <button type="submit" class="contacts__btn btn-reset">
+            Поиск
+          </button>
+        </form>
+        <div class="contacts__map" id="map"></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container footer-top__container">
+        <div class="footer-top__inner">
+          <a href="./index.html" class="logo footer__logo" aria-label="На главную страницу">
+            <img class="logo-img" src="./img/svg/logo.svg" alt="SitDownPls logotipe">
+          </a>
+          <ul class="footer__social-list">
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-link" aria-label="Мы в соц сетях. Фейсбук">
+                <svg viewbox="0 0 30 30">
+                  <use xlink:href="sprite.svg#fb"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-link" aria-label="Мы в соц сетях. В контакте">
+                <svg viewbox="0 0 30 30">
+                  <use xlink:href="sprite.svg#vk"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-link" aria-label="Мы в соц сетях. Инстаграм">
+                <svg viewbox="0 0 30 30">
+                  <use xlink:href="sprite.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <nav class="footer__nav">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <h6 class="footer__item-title">О&nbsp;нас</h6>
+              <a href="#" class="footer__link">О&nbsp;компании</a>
+              <br><a href="#" class="footer__link">Блог</a>
+            </li>
+            <li class="footer__item">
+              <h6 class="footer__item-title">Услуги</h6>
+              <a href="#" class="footer__link">Доставка</a>
+              <a href="#" class="footer__link">Рассрочка и кредит</a>
+              <br><a href="#" class="footer__link">Сборка и установка</a>
+            </li>
+            <li class="footer__item">
+              <h6 class="footer__item-title">Связь с нами</h6>
+              <a href="#" class="footer__link">Обратная связь</a>
+              <a href="#" class="footer__link">Контакты</a>
+            </li>
+            <li class="footer__item">
+              <h6 class="footer__item-title">Сотрудничество</h6>
+              <a href="./cooperation.html" class="footer__link">Поставщикам</a>
+              <a href="#" class="footer__link">Оптовикам</a>
+              <br><a href="#" class="footer__link">Карьера</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom__container">
+        <span>SDP® 2011-2021</span>
+      </div>
+    </div>
+  </footer>
+  <script defer src="https://api-maps.yandex.ru/2.1/?apikey=вашAPI-ключ&lang=ru_RU"></script>
+  <script defer src="js/app.js"></script>
+</body>
+
+</html>

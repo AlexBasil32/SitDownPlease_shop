@@ -1,0 +1,144 @@
+.feedback{
+  padding-top: 37px;
+  padding-bottom: 30px;
+}
+
+.feedback__title {
+  margin-bottom: 9px;
+}
+
+.feedback__container {
+  background-image: url('../img/images/contact_img.png');
+  background-repeat: no-repeat;
+  background-position: bottom 25px right 0;
+  background-size: 49% auto;
+}
+
+.feedback__form-wrapper {
+  max-width: 49%;
+}
+
+.feedback__text {
+  margin-bottom: -4px;
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--grey_shade);
+
+  .tooltype-icon {
+    position: relative;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: .5px solid var(--secondary_main);
+    border-radius: 50px;
+    vertical-align: -4px;
+    cursor: pointer;
+
+    svg {
+      vertical-align: 3px;
+
+      path {
+        fill: var(--white);
+        stroke: var(--secondary_main);
+      }
+    }
+  }
+
+  .tooltype-icon:hover,
+  .tooltype-icon:focus {
+    width: 16px;
+    height: 16px;
+    margin-left: -1px;
+    border: .5px solid transparent;
+    vertical-align: -5px;
+
+    svg {
+      path {
+        fill: var(--secondary_main);
+        stroke: var(--white);
+      }
+    }
+  }
+}
+
+.tooltype {
+  position: absolute;
+  top: -63px;
+  left: -70px;
+  display: inline-block;
+  min-width: 157px;
+  padding: 5px 5px 10px;
+  font-size: 9px;
+  line-height: 14px;
+  color: var(--white);
+  text-align: center;
+  opacity: 0;
+  background-color: var(--black);
+  transition: opacity .3s ease;
+  clip-path: polygon(0 0, 100% 0, 99% 84%, 56% 83%, 48% 100%, 40% 84%, 0 84%);
+}
+
+.tooltype-icon:hover,
+.tooltype-icon:focus {
+  .tooltype {
+    margin-top: 1px;
+    margin-left: 1px;
+    opacity: 1;
+    transition: opacity .3s ease;
+  }
+}
+
+.feedback__form {
+  width: 100%;
+  margin-bottom: 13px;
+}
+
+.form-alert {
+  display: inline-block;
+  margin-bottom: 5px;
+  padding-left: 20px;
+  font-size: 12px;
+  line-height: 1;
+  color: transparent;
+}
+
+.feedback__input {
+  @include formInput;
+  margin-bottom: 8px;
+}
+
+.feedback__input.alert {
+  border: 1px solid #ff6972;
+}
+
+.feedback__btn {
+  @include coloredBtn;
+  margin-top: 25px;
+  padding: 16px 31px;
+}
+
+.checkbox-label {
+  margin-left: -5px;
+  cursor: pointer;
+}
+
+.agreement {
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--black);
+}
+
+.agriment-link {
+  display: inline-block;
+  color: var(--primary_main);
+  text-decoration-line: underline;
+}
+
+.agriment-link:hover {
+  color: var(--primary_shade);
+}
+
+.agriment-link:focus {
+  color: var(--primary_shade);
+  background-color: var(--primary_light);
+}
